@@ -15,7 +15,7 @@ export default class BookingTicket extends Component {
   render() {
     return (
       <div className='bookingMovie' style={{ position: "fixed", width: "100%", height: '100%', backgroundImage: "url('./images/bgmovie.jpg')", backgroundSize: '100%' }}>
-        <div style={{ position: "fixed", width: "100%", height: '100%', backgroundColor: 'rgba(0,0,0,0.6)' }}>
+        <div style={{ position: "fixed", width: "100%", height: '100%', backgroundColor: 'rgba(0,0,0,0.7)' }}>
           <div className="container-fluid">
             <div className="row">
               <div className="col-sm-8 text-center">
