@@ -14,7 +14,7 @@ class InfoBooking extends Component {
             <button className='ghe' style={{ marginLeft: "0" }}></button><span className='text-light' style={{ fontSize: '20px' }}>Seat Empty</span>
           </div>
 
-          <div className='mt-5' boder="2">
+          <div className='mt-5'>
             <table className="table" border={2}>
               <thead>
                 <tr className='text-light' style={{ fontSize: '20px' }}>
