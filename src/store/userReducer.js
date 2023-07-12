@@ -23,8 +23,6 @@ const userReducer = (state = stateDefault, action) => {
             let index = listBookingSeatUpdate.findIndex(gheDangDat => gheDangDat.soGhe === action.soGhe);
             if (index !== -1) {
                 listBookingSeatUpdate.splice(index, 1);
-            } else {
-                listBookingSeatUpdate.push(action.ghe);
             }
             state.listBookingSeat = listBookingSeatUpdate;
             return { ...state }
